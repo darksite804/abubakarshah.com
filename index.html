@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aviator Signal Bot</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>✈ Aviator Signal Bot</h1>
+        <p>Smart Signal Dashboard</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Bot Status -->
+        <div class="status-card">
+            <h3>Bot Status</h3>
+            <span class="online">● ONLINE</span>
+        </div>
+
+        <!-- Signal -->
+        <section class="signal-card">
+            <h2>Current Signal</h2>
+
+            <div id="signal" class="multiplier">
+                2.00x
+            </div>
+
+            <p id="signalStatus">
+                Waiting for signal...
+            </p>
+
+            <button onclick="generateSignal()">
+                Generate Demo Signal
+            </button>
+        </section>
+
+        <!-- Statistics -->
+        <section class="stats">
+
+            <div class="stat-box">
+                <h3>Signals Today</h3>
+                <p id="signals">0</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>Demo Signals</h3>
+                <p id="success">0</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>Accuracy</h3>
+                <p id="accuracy">--%</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>Last Update</h3>
+                <p id="time">--:--</p>
+            </div>
+
+        </section>
+
+        <!-- Description -->
+        <section class="description">
+
+            <h2>About Aviator Signal Bot</h2>
+
+            <p>
+                Aviator Signal Bot is a modern dashboard interface designed
+                to display signal information in a simple and user-friendly
+                format. Users can view the current demo signal, bot status,
+                and session statistics from one place.
+            </p>
+
+            <p>
+                The website is designed to work on both mobile phones and
+                desktop computers with a clean and responsive interface.
+            </p>
+
+        </section>
+
+        <!-- Features -->
+        <section class="description">
+
+            <h2>Features</h2>
+
+            <ul>
+                <li>Modern dashboard design</li>
+                <li>Current signal display</li>
+                <li>Bot online status</li>
+                <li>Signal statistics</li>
+                <li>Responsive mobile design</li>
+                <li>Simple user interface</li>
+            </ul>
+
+        </section>
+
+        <!-- Disclaimer -->
+        <section class="warning">
+
+            <h3>⚠ Important Disclaimer</h3>
+
+            <p>
+                This website is for demonstration and educational purposes.
+                The displayed demo signals are not guaranteed predictions
+                of future game results. Aviator and similar games involve
+                chance, and no system can guarantee winnings or profits.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 Aviator Signal Bot
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
